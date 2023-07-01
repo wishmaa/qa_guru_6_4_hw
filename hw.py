@@ -55,6 +55,7 @@ def test_random_list():
     l = random.sample(range(1, 101), 10)
     l.sort()
 
+
     assert len(l) == 10
     assert l[0] < l[-1]
 
